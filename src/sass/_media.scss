@@ -1,0 +1,63 @@
+@media (max-width: 992px){
+    .promo{
+        padding: 21px 20px 92px 20px;
+    }
+    .advantages{
+        padding: 70px 20px 80px 20px;
+    }
+    .consultation{
+        padding:100px 20px 92px 20px
+    }
+}
+@media (max-width: 768px){
+    .header__official{
+        display: none;
+    }
+    .advantages__subtitle{
+        font-size: 15px;
+    }
+    .advantages__descr{
+        font-size: 12px;
+        padding: 0 5px;
+    }
+    
+}
+@media (max-width: 576px){
+    .header__logo{
+        padding-right: 10px;
+    }
+    .header__phone{
+        font-size: 13px;
+    }
+    .button{
+        width: 125px;
+    }
+    .promo__header{
+        font-size: 35px;
+    }
+    .promo__subheader{
+        font-size: 20px;
+    }
+    .promo__icon{
+        display: none;
+    }
+    .button_main{
+        width: 280px;
+    }
+    .advantages__wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .title_left{
+        font-size: 30px;
+    }
+    .consultation__descr{
+        font-size: 17px;
+    }
+    .feed-form input{
+        width: 280px;
+    }
+    .button_submit{
+        font-size: 13px;
+    }
+}
