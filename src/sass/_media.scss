@@ -1,3 +1,11 @@
+@media (max-width: 1200px){
+    .carousel .prev{
+        left: 24px
+    }
+    .carousel .next{
+        right: 24px;
+    }
+}
 @media (max-width: 992px){
     .promo{
         padding: 21px 20px 92px 20px;
@@ -7,6 +15,9 @@
     }
     .consultation{
         padding:100px 20px 92px 20px
+    }
+    .carousel .tns-item img{
+        width: 80%;
     }
 }
 @media (max-width: 768px){
@@ -20,7 +31,9 @@
         font-size: 12px;
         padding: 0 5px;
     }
-    
+    .carousel .tns-item img{
+        width: 75%;
+    }    
 }
 @media (max-width: 576px){
     .header__logo{
@@ -60,4 +73,10 @@
     .button_submit{
         font-size: 13px;
     }
+    .carousel .tns-item img{
+        width: 70%;
+    }
+    .carousel .next img, .carousel .prev img{
+        width: 14px;
+    }     
 }
