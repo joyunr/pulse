@@ -19,6 +19,9 @@
     .carousel .tns-item img{
         width: 80%;
     }
+    .feedback__item{
+        padding: 0 20px 0 20px;
+    }
 }
 @media (max-width: 768px){
     .header__official{
@@ -84,5 +87,11 @@
     }
     .catalog__tab{
         margin-top: 10px;
-    }     
+    }
+    .feedback__item{
+        flex-direction: column;        
+    } 
+    .feedback__name{
+        margin-top: 20px;
+    }    
 }

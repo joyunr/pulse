@@ -1,0 +1,29 @@
+.feedback{
+    &__item{
+        margin-top: 70px;
+        margin-bottom: 32px;
+        display: flex;
+        align-items: start;
+    }
+    &__photo{
+        object-fit: scale-down;
+        margin-right: 62px;
+    }
+    &__name{
+        margin-bottom: 10px;
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__marathon{
+        margin-bottom: 19px;
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__text{
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}    
