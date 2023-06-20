@@ -100,5 +100,15 @@
     }
     .footer__social-item{
         margin: 0 5px;
+    }
+    .modal{
+        &__close{
+            top: 10px;
+            right: 10px;
+        }
+        width: 300px;
+        .feed-form input{
+            width: 230px;
+        }
     }    
 }
